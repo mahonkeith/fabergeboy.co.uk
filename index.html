@@ -19,21 +19,21 @@
             }
             h1 {
             text-align: center;
-            }
+                }
             ul{
                 padding: 10px;
                 margin: 0px 20px 0px 20px
                 background: aquamarine;
-            }
+                }
             li{
                 display: inline;
                 margin: 0px 10px 0px 10px;
-            }
+                }
             a:link{
                 text-decoration: none;
                 color: black;
                 font-family: serif;
-            }
+                }
             a:hover {
                 text-decoration: underline;
                 }
@@ -44,12 +44,15 @@
                 width: 100%;
                 text-align: center;
                 font-size: 15px;
-            img {
-                border: 7px; 
-                color: solidwhite;
-                border-radius: 20px;
+                }
+            #myeggs {
                 display: inline-block;
-                margin: 0px 10px 0px 10px;
+                position:relative;
+                padding: 0;
+                margin-left:auto;
+                margin-right:auto;
+                margin-top: 20px;
+                text-align:center;
                 }
         </Style>
     </head>
@@ -68,7 +71,11 @@
         <p> The Queen of England sits atop her hoard of Faberge Eggs like a medieval dragon, surrounded by the skeletal remains of her vanquished foes. Here is the list of each Faberge egg that she guards in her talons, sleeping with one eye open.  </p>
         <br>
         <p id="myeggs">
-            <img src="public/basketofflowers.jpg" style="width:100px;height:100px;" class="center"><img src="public/colonnade.jpg" style="width:100px;height:100px;" class="center"><img src="public/mosaic.jpg" style="width:100px;height:100px;" class="center">
+            <div id="imagesMain">
+            <img src="public/basketofflowers.jpg" style="width:100px;height:100px;">
+            <img src="public/colonnade.jpg" style="width:100px;height:100px;">
+            <img src="public/mosaic.jpg" style="width:100px;height:100px;">
+            </div>
         </p>
         <footer>
         <p>Find the rest and most danciest content over on the <a href="https://fabergeboy.com">FabergeBoy.com</a></p>
